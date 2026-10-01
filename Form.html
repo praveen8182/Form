@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="signin" >
+        <input type="hidden" id="id">
+        <h2>Signin</h2>
+        <div class="group">
+            <label for="">Username : </label>
+            <input type="text" id="username" required>
+        </div>
+        
+        <div class="group">
+            <label for="">password : </label>
+            <input type="password" id="password" required>
+        </div>  
+             <div class="group">
+            <label for="">Email : </label>
+            <input type="text" id="email" required>
+        </div>
+        <div class="group">
+            <label for="">Gender : </label>
+            <select name="" id="gender" style="padding:5px;" required>
+                <option value="">-------</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+          <div class="group">
+            <label for="">City : </label>
+            <select name="" id="city" style="padding:5px;" required>
+                <option value="">-------</option>
+                <option value="Trichy">Trichy</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Ngl">Ngl</option>
+
+            </select>
+        </div>
+        <button type="submit">submit</button>
+            
+    </form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Uid</th>
+            <th>Username</th>
+            <th>Password</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>City</th>
+            <th>Update</th>
+            <th>Delete</th>
+
+
+            
+        </tr>
+    </thead>
+
+</table>
+<link rel="stylesheet" href="script.js">
+</body>
+</html>

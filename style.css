@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    height: 450px;
+    width: 350px;
+    box-shadow: 2px 2px 20px gray;
+    margin: 5vh auto;
+    padding: 40px;
+    border-radius: 5px;
+    
+}
+form .group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+form .group label{
+    font-size: 1.2em;
+}
+form .group input{
+    padding: 5px;
+}
+form button{
+    padding: 5px;
+    font-size: 1.4em;
+    width: 90%;
+    margin: 20px auto;
+    background-color: green;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: rgb(69, 244,69);
+}
+form h2{
+    color: orange;
+    text-align: center;
+}
+table{
+    margin: 0px auto;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
